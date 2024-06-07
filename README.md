@@ -5,7 +5,7 @@ Não entendo como um algoritmo tão simples pode gerar esses resultados tão imp
 Consiste num tabuleiro "infinito" em que cada posição pode estar "viva" ou "morta". 
 Cada posição no tabuleiro possui 8 posições vizinhas que também podem estar "vivas" ou "mortas" cada uma.
 
-Regras (Ao se percorrer o tabuleiro):
+Regras (ao se percorrer o tabuleiro):
 
 1) Se a posição está "viva" e está cercada por posições "mortas" então ela MORRE de solidão;
 2) Se a posição está "viva" e possui 4 ou mais posições "vivas" nos seus arredores, ela morre por supermutação;
