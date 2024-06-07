@@ -1,6 +1,6 @@
-<h1>Jodo da vida</h1>
+<h1>Jogo da vida</h1>
 
-Não entendo como um algoritmo tão simples pode gerar esses resultados. 
+Não entendo como um algoritmo tão simples pode gerar esses resultados tão impressionante. 
 
 Consiste num tabuleiro "infinito" em que cada posição pode estar "viva" ou "morta". 
 Cada posição no tabuleiro possui 8 posições vizinhas que também podem estar "vivas" ou "mortas" cada uma.
@@ -10,7 +10,7 @@ Regras (Ao se percorrer o tabuleiro):
 1) Se a posição está "viva" e está cercada por posições "mortas" então ela MORRE de solidão;
 2) Se a posição está "viva" e possui 4 ou mais posições "vivas" nos seus arredores, ela morre por supermutação;
 3) Se a posição está "morta" e possui 3 posições "vivas" nos seus arredores, ela NASCE;
-4) O algoritmo é repetido até que não haja mais mudanças no tabuleiro.
+4) O algoritmo é repetido até que não haja mais mudanças no tabuleiro (no caso de um tabuleiro finito). 
 
 <h2>Vídeo de funcionamento do algoritmo em Python.</h2>
 
