@@ -7,7 +7,7 @@ jogo_da_vida = []
 vivo = "██"
 morto = "░░"
 separacao = ""
-tam_tabuleiro = 100
+tam_tabuleiro = 230
 
 for i in range(tam_tabuleiro):
     jogo_da_vida.append([])
@@ -59,9 +59,9 @@ while(True):
                 mortas -= 1
                 if(vivas == 3):
                     jogo_da_vida[i][j] = vivo
-        os.system('cls')
-        for k in range(tam_tabuleiro):
-            print(separacao.join(jogo_da_vida[k]))
+    os.system('cls')
+    for k in range(tam_tabuleiro):
+        print(separacao.join(jogo_da_vida[k]))
     # time.sleep(1)
 
 os.system('cls')
